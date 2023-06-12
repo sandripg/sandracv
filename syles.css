@@ -119,10 +119,7 @@ ul {
     justify-content: center;
 }
 
-.skill-span-progress {
-    font-size: 8px;
-    text-decoration: overline;
-}
+
 
 .nav-link:hover {
     color: #007297;
@@ -807,11 +804,20 @@ svg {
     .prueba {
         display: none;
     }
+
+    .skill-span-progress {
+        font-size: 8px;
+    }
 }
 
 @media (min-width: 576px) {
     .prueba {
         display: none;
+    }
+
+    .skill-span-progress {
+        font-size: 12px;
+        text-decoration: overline;
     }
 }
 
@@ -819,11 +825,21 @@ svg {
     .prueba {
         display: block;
     }
+
+    .skill-span-progress {
+        font-size: 12px;
+        text-decoration: overline;
+    }
 }
 
 @media (min-width: 992px) {
     .prueba {
         display: block;
+    }
+
+    .skill-span-progress {
+        font-size: 12px;
+        text-decoration: overline;
     }
 }
 
@@ -831,10 +847,20 @@ svg {
     .prueba {
         display: block;
     }
+
+    .skill-span-progress {
+        font-size: 12px;
+        text-decoration: overline;
+    }
 }
 
 @media (min-width: 1400px) {
     .prueba {
         display: block;
+    }
+
+    .skill-span-progress {
+        font-size: 12px;
+        text-decoration: overline;
     }
 }
