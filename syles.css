@@ -142,8 +142,7 @@ h5 {
 .nav-items {
     font-size: 1.2em;
     display: flex;
-    align-content: center;
-    gap: 10px;
+    justify-content: space-between;
     height: 50px;
     flex-wrap: wrap;
     align-items: center;
