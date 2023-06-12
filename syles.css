@@ -140,7 +140,7 @@ h5 {
 }
 
 .nav-items {
-    font-size: 1.5em;
+    font-size: 1.2em;
     display: flex;
     align-content: center;
     gap: 10px;
@@ -186,6 +186,10 @@ h5 {
 .btn-download {
     display: flex;
     justify-content: center;
+}
+
+.div-display-none {
+    display: none;
 }
 
 
@@ -780,96 +784,12 @@ svg {
 
 }
 
-.text-info {
-    display: flex;
-    padding: 30px;
-    justify-content: space-between;
-}
-
-.text-info span {
-    color: var(--rc-color-n-200);
-    font-size: 13px;
-    text-decoration: overline;
-}
-
-.text-info-local {
-    display: block;
-}
-
-.text-info-account {
-    display: block;
-}
-
-.text-info-conditions {
-    display: block;
-}
-
-.text-info-local p {
-    color: #eeeeee;
-}
-
-.info-local {
-    padding-top: 10px;
-}
-
-.info-account {
-    padding-top: 10px;
-}
-
-.info-account a {
-    cursor: pointer;
-    color: #eeeeee;
-}
-
-.info-account a:hover {
-    color: #FC779A;
-}
-
-.info-conditions a {
-    cursor: pointer;
-    color: #eeeeee;
-}
-
-.info-conditions a:hover {
-    color: #FC779A;
-}
-
-.info-account i {
-    font-size: 8px;
-    padding-right: 5px;
-}
-
-.info-conditions i {
-    font-size: 8px;
-    padding-right: 5px;
-}
-
-.info-local i {
-
-    padding-right: 5px;
-}
 
 .container-copyright i {
     color: #FC779A;
 }
 
-.info-conditions {
-    padding-top: 10px;
-}
 
-
-.text-info-account li {
-    color: #eeeeee;
-}
-
-.info-local li {
-    color: #eeeeee;
-}
-
-.text-info-conditions li {
-    color: #eeeeee;
-
-}
 
 .container-copyright {
     display: flex;
@@ -881,4 +801,40 @@ svg {
 
 #icon-heart {
     font-size: 1em;
+}
+
+@media (min-width: 0) {
+    .prueba {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .prueba {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .prueba {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .prueba {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .prueba {
+        display: block;
+    }
+}
+
+@media (min-width: 1400px) {
+    .prueba {
+        display: block;
+    }
 }
